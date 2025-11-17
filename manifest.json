@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Baixar HTML da Página",
+  "version": "1.0",
+  "description": "Baixa o código-fonte HTML da guia ativa.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
